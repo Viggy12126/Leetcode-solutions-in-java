@@ -1,7 +1,7 @@
 import java.util.* ;
 import java.io.*; 
 
-public class Solution{
+public class 01knap{
 
     public static int helper(int[] weight, int[] value, int i, int maxWeight,Integer[][] dp){
 
