@@ -9,7 +9,7 @@ class Solution {
             s2+=s1.charAt(i);
         }
 
-         int m=s2.length();
+       int m=s2.length();
       int[][] dp=new int[n+1][m+1];
 
         // return helper(text1,text2,n,m,dp);
