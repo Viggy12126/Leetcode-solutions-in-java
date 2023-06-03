@@ -8,7 +8,7 @@ public class min_no_of_delAndInsertions {
         int n=s1.length();
         int m=s2.length();
 
-         int[][] dp=new int[n+1][m+1];
+        int[][] dp=new int[n+1][m+1];
 
     // return helper(text1,text2,n,m,dp);
 
