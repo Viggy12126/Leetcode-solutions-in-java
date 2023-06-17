@@ -55,8 +55,7 @@ public class lc787 {
 
         Queue<Tuple> q=new LinkedList<>();
         q.add(new Tuple(0,src,0));
-        int ans=Integer.MAX_VALUE;
-
+       
         while(!q.isEmpty()){
             Tuple tp=q.remove();
            
