@@ -40,7 +40,6 @@ class DisjointSet {
     }
 }
 
-
 public class lc721 {
     
      public List<List<String>> accountsMerge(List<List<String>> accounts) {
