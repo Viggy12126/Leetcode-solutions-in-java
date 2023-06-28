@@ -54,7 +54,6 @@ class DisjointSet {
     }
 }
 
-
 public class no_of_islands2 {
 
 private boolean isValid(int adjr, int adjc, int n, int m) {
@@ -67,7 +66,7 @@ private boolean isValid(int adjr, int adjc, int n, int m) {
          DisjointSet ds = new DisjointSet(n*m);
          List<Integer> ans=new ArrayList<>();
          int len=operators.length;
-          int[][] vis = new int[n][m];
+        int[][] vis = new int[n][m];
         int cnt = 0;
         
          for (int i = 0; i < len ; i++) {
