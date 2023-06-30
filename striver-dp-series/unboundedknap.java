@@ -6,7 +6,6 @@ public class unboundedknap {
             return ((int)(w/weight[0])*profit[0]);
         }
 
-
 if(dp[i][w]!=null)
 return dp[i][w];
 

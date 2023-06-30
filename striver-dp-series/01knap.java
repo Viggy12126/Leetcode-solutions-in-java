@@ -27,9 +27,7 @@ return dp[i][maxWeight]=Math.max(take,notTake);
     }
     static int knapsack(int[] weight, int[] value, int n, int maxWeight) {
 
-         
-
-            int[][] dp=new int[n][maxWeight+1];
+         int[][] dp=new int[n][maxWeight+1];
 
             // return helper(weight,value,n-1,maxWeight,dp);
 
