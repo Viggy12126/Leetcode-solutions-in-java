@@ -4,7 +4,7 @@
 // You can move up, down, left, or right, and you wish to find a route that requires the minimum effort.
 
 // A route's effort is the maximum absolute difference in heights between two consecutive cells of the route.
-
+ 
 // Return the minimum effort required to travel from the top-left cell to the bottom-right cell.
 
 import java.util.PriorityQueue;
