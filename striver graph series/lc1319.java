@@ -1,9 +1,11 @@
 import java.util.*;
 
 class DisjointSet {
+
     List<Integer> rank = new ArrayList<>();
     List<Integer> parent = new ArrayList<>();
     List<Integer> size = new ArrayList<>(); 
+    
     public DisjointSet(int n) {
         for(int i = 0;i<=n;i++) {
             rank.add(0); 
